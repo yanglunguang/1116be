@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=false">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="APP-logo.png">
+    <title>LOOK</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.0.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="bgimg.css"/>
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css"/>-->
+    <script src="js/jquery.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="js/jquery.mobile-1.0.min.js"></script>
+
+
+    <script src="js/min/jquery-v1.10.2.min.js"></script>
+    <script src="js/min/modernizr-custom-v2.7.1.min.js"></script>
+    <script src="js/min/jquery-finger-v0.1.0.min.js"></script>
+    <script src="js/min/flickerplate.min.js"></script>
+    <script src="js/style.js"></script>
+    <link href="css/flickerplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div data-role="page" id="page1">
+    <div data-role="header" style="height: 35px; background: #232428;position: fixed;z-index: 99;">
+            <a href="#page2" data-ajax="false" data-transition="fade" style="clear: both" data-role="none" class="discover-header-seach-a">
+                <div class="position">
+                    <div class="discover-header-seach-icon"></div>
+                    <span class="discover-header-seach-font" >&nbsp;搜索你感兴趣的内容</span>
+                </div>
+
+            </a>
+    </div>
+    <div class="banner w-600px" style="margin-top: 37px;">
+        <div class="flicker-example">
+            <ul>
+                <li data-background="img/writer-show-4.jpg" style="background-image: url("/img/writer-show-4.jpg")"></li>
+                <li data-background="img/img5.jpg" style="background-image: url("/img/img4.jpg")"></li>
+                <li data-background="img/img4.jpg" style="background-image: url("/img/img6.jpg")">
+                    <!--<div class="flick-title">Title 3</div>-->
+                    <!--<div class="flick-sub-text">Text line 3</div>-->
+                </li>
+            </ul>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $(".flicker-example").flicker();
+            });
+        </script>
+    </div>
+    <div class="pro w-600px">
+
+                    <div data-role="content">
+                        <div class="p-position">
+                            <p class="discover-font magin-5">分类查看主题帖</p>
+                        </div>
+
+                        <div class="discover-img">
+                            <div class="pro-img-position" id="pro-img-1">
+                                <div class="discover-pro-img">
+                                    <p class="discover-font discover-font-position">设计<br>Design</p>
+                                </div>
+                            </div>
+                            <div class="pro-img-position " id="pro-img-2">
+                                <div class="discover-pro-img">
+                                    <p class="discover-font discover-font-position">趣味<br>Fun</p>
+                                </div>
+                            </div>
+                            <div class="pro-img-position " id="pro-img-3">
+                                <div class="discover-pro-img">
+                                    <p class="discover-font discover-font-position">影视<br>Film＆TV</p>
+                                </div>
+                            </div>
+                            <div class="pro-img-position " id="pro-img-4">
+                                <div class="discover-pro-img">
+                                    <p class="discover-font discover-font-position">科普<br>Science</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    </div>
+    <div class="selection w-600px">
+                    <div data-role="content">
+                        <div class="p-position">
+                            <div class="selection-1">
+                                <span class="section-font magin-5"> 影视剧</span>
+                                <div class="icon-jiahao icon-jiahao-beforn"></div>
+
+                                <div class="pro-container p-position">
+                                    <img src="img/discover-img-1.jpg" class="touxiang magin-5" alt=""/>
+                                    <div class="pro-container-font">
+                                        <p class="p-style--section-font">为你讲述电影与电视剧中的历史事件，跟着你熟悉的剧情找到属于过去的真相。</p>
+                                        <p class="p-style--section-font-2">1万人关注/影视</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="selection-1 top-10px">
+                                <span class="section-font magin-5"> 文景</span>
+                                <div class="icon-jiahao icon-jiahao-beforn" ></div>
+
+                                <div class="pro-container p-position">
+                                    <img src="img/discover-img-4.jpg" class="touxiang magin-5" alt=""/>
+                                    <div class="pro-container-font">
+                                        <p class="p-style--section-font">社科新知<br>文艺新潮</p>
+                                        <p class="p-style--section-font-2">1万人关注/影视</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="selection-1 top-10px">
+                                <span class="section-font magin-5">怀旧金曲</span>
+                                <div class="icon-jiahao icon-jiahao-beforn"></div>
+
+                                <div class="pro-container p-position">
+                                    <img src="img/discover-img-3.jpg" class="touxiang magin-5" alt=""/>
+                                    <div class="pro-container-font">
+                                        <p class="p-style--section-font">复古老歌私人推荐</p>
+                                        <p class="p-style--section-font-2">4万人关注/影视</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="selection-1 top-10px" style="margin-bottom: 60px;">
+                                <span class="section-font magin-5">译林出版社</span>
+                                <div class="icon-jiahao icon-jiahao-beforn"></div>
+                                <div class="pro-container p-position">
+                                    <img src="img/discover-img-2.jpg" class="touxiang magin-5" alt=""/>
+                                    <div class="pro-container-font">
+                                        <p class="p-style--section-font">聚焦全球好书<br>领略阅读至乐</p>
+                                        <p class="p-style--section-font-2">4万人关注/影视</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+    </div>
+    <div data-role="footer"  style="background: #232428;position: fixed;bottom: 0">
+        <div class="ui-grid-c" style="height: 45px;font-weight: 300;text-align: center;line-height:14px;font-family: Helvetica,Arial,sans-serif;font-size:0.8em;" >
+            <div class="ui-block-a" style="margin-top: 8px;"><a data-ajax="false" href="index.html"  data-transition="fade" style="color: #ffffff;"><span style="font-size: 1.6em;font-weight: 100;">L</span><br> <span style="font-size: 0.8em;font-weight: 100;clear: both">推荐</span></a></div>
+            <div class="ui-block-b" style="margin-top: 8px;"><a data-ajax="false" href="#" style="color: #16a5af";><span style="font-size: 1.6em;font-weight: 100;">O</span><br> <span style="font-size: 0.8em;font-weight: 100;clear: both">发现</span></a></div>
+            <div class="ui-block-c" style="margin-top: 8px;"><a data-ajax="false" href="writer.html" data-transition="fade" style="color: #FFFFFF";><span style="font-size: 1.6em;font-weight: 100;">O</span><br> <span style="font-size: 0.8em;font-weight: 100;clear: both">社区</span></a></div>
+            <div class="ui-block-d" style="margin-top: 8px;"><a data-ajax="false" href="my.html" data-transition="fade" style="color: #FFFFFF";><span style="font-size: 1.6em;font-weight: 100;">K</span><br> <span style="font-size: 0.8em;font-weight: 100;clear: both">我的</span></a></div>
+        </div>
+    </div>
+</div>
+<div data-role="page" id="page2">
+
+</div>
+</body>
+</html>
