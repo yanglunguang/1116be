@@ -1,0 +1,6 @@
+echo "# 1116be" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/yanglunguang/1116be.git
+git push -u origin master
